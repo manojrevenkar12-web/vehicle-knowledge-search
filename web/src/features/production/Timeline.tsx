@@ -32,10 +32,10 @@ export function Timeline({ r }: { r: Results }) {
             </text>
           </g>
         ))}
-        {events.map((e) => (
+        {events.map((e, i) => (
           <g key={e.label}>
             <line x1={x(e.w)} x2={x(e.w)} y1={T.top - 6} y2={T.height - T.bottom} stroke={color.event} strokeDasharray="3 4" />
-            <text x={x(e.w) + 4} y={T.top - 10} className="tick tick--event">
+            <text x={x(e.w) + 4} y={T.top - 10 + (i % 2) * 14} className="tick tick--event">
               {e.label}
             </text>
           </g>

@@ -1,0 +1,35 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[dev]"
+      - run: ruff check src tests scripts && ruff format --check src tests scripts
+      - name: The world is reproducible and the held-out pin holds
+        run: PYTHONPATH=src python scripts/build_world.py && git diff --exit-code data && PYTHONPATH=src python -c "from vks.heldout import check; check()"
+      - run: pytest -q
+      - name: Gate (A/A rerun of the graph + validator must pass)
+        run: PYTHONPATH=src python scripts/gate.py
+      - name: Dropping the validator must be blocked
+        run: "! PYTHONPATH=src python scripts/gate.py graph"
+  web:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - run: npx tsc --noEmit && npx eslint src test
+      - run: npx vitest run
+      - run: npm run build

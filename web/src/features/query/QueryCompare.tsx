@@ -66,7 +66,8 @@ export function QueryCompare({ r }: { r: Results }) {
             <span className="is-good">Every filter as meant: {a.results} listings.</span>
           ) : (
             <span className="is-bad">
-              {a.results} listings, against {ex.gold_results} the query meant.
+              {a.wrong.length + a.extra.length} filter{a.wrong.length + a.extra.length === 1 ? "" : "s"} not as meant: {a.results} listings found, where the
+              query meant {ex.gold_results}.
             </span>
           )}
         </p>

@@ -1,0 +1,144 @@
+{
+ "queries": 160,
+ "repeats": 3,
+ "commit": "097afbc",
+ "fingerprint": "04d8bd3f7feef11637250c0a3ba2c9043a3cecfa8652e5dddf51e71c8f935985",
+ "systems": {
+  "llm_only": {
+   "exact": [
+    0.5979,
+    0.5292,
+    0.6626
+   ],
+   "result_jaccard": 0.7612,
+   "filter_f1": 0.8564,
+   "zero_results": 0.1187,
+   "by_kind": {
+    "alias": 0.7843,
+    "concept": 0.2143,
+    "explicit": 0.8211,
+    "generation": 0.6914,
+    "new_model": 0.2667
+   },
+   "by_lang": {
+    "de": 0.608,
+    "en": 0.5619
+   },
+   "wrong_keys": {
+    "model": 73,
+    "power_from_kw": 42,
+    "year_from": 33,
+    "year_to": 33,
+    "mileage_to": 21,
+    "body": 18,
+    "seats_from": 18,
+    "consumption_to": 18
+   },
+   "p50_ms": 1526,
+   "p95_ms": 1826,
+   "cost_eur": 0.00275,
+   "docs": 0.0,
+   "runs": 480
+  },
+  "vector_rag": {
+   "exact": [
+    0.9625,
+    0.9375,
+    0.9812
+   ],
+   "result_jaccard": 0.9863,
+   "filter_f1": 0.9941,
+   "zero_results": 0.1021,
+   "by_kind": {
+    "alias": 0.9412,
+    "concept": 0.9286,
+    "explicit": 0.9756,
+    "generation": 0.9691,
+    "new_model": 0.9833
+   },
+   "by_lang": {
+    "de": 0.968,
+    "en": 0.9429
+   },
+   "wrong_keys": {
+    "price_to": 12,
+    "consumption_to": 3
+   },
+   "p50_ms": 1591,
+   "p95_ms": 1903,
+   "cost_eur": 0.00487,
+   "docs": 3.86,
+   "runs": 480
+  },
+  "graph": {
+   "exact": [
+    0.9688,
+    0.9479,
+    0.9833
+   ],
+   "result_jaccard": 0.9863,
+   "filter_f1": 0.9954,
+   "zero_results": 0.1021,
+   "by_kind": {
+    "alias": 0.9412,
+    "concept": 0.9643,
+    "explicit": 0.9756,
+    "generation": 0.9691,
+    "new_model": 0.9833
+   },
+   "by_lang": {
+    "de": 0.976,
+    "en": 0.9429
+   },
+   "wrong_keys": {
+    "price_to": 12
+   },
+   "p50_ms": 1591,
+   "p95_ms": 1903,
+   "cost_eur": 0.00305,
+   "docs": 0.0,
+   "runs": 480
+  },
+  "graph_agent": {
+   "exact": [
+    0.9688,
+    0.9479,
+    0.9833
+   ],
+   "result_jaccard": 0.9863,
+   "filter_f1": 0.9954,
+   "zero_results": 0.1021,
+   "by_kind": {
+    "alias": 0.9412,
+    "concept": 0.9643,
+    "explicit": 0.9756,
+    "generation": 0.9691,
+    "new_model": 0.9833
+   },
+   "by_lang": {
+    "de": 0.976,
+    "en": 0.9429
+   },
+   "wrong_keys": {
+    "price_to": 12
+   },
+   "p50_ms": 1715,
+   "p95_ms": 2026,
+   "cost_eur": 0.00305,
+   "docs": 0.0,
+   "runs": 480
+  }
+ },
+ "paired": {
+  "graph_agent vs llm_only": [
+   0.3708,
+   0.3042,
+   0.4396
+  ],
+  "graph_agent vs vector_rag": [
+   0.0063,
+   0.0,
+   0.0187
+  ]
+ }
+}

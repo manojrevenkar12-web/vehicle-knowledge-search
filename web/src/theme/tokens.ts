@@ -25,14 +25,14 @@ export const systemColor: Record<string, string> = {
   graph_agent: "#0E7C66",
 };
 
-export const font = { ui: '"Schibsted Grotesk", "Segoe UI", system-ui, sans-serif' } as const;
+export const font = { ui: '"Figtree", "Segoe UI", system-ui, sans-serif' } as const;
 export const size = { tick: 12, small: 14, body: 16, lead: 19, title: 26, display: 42 } as const;
 export const space = { 1: 4, 2: 8, 3: 12, 4: 16, 5: 24, 6: 32, 7: 48, 8: 72 } as const;
 export const radius = { control: 6, panel: 10, chip: 999 } as const;
 export const layout = { contentMax: 1140, measure: 68 } as const;
 
 /** The production timeline: plot size, the accuracy axis floor, marker sizes. */
-export const timeline = { width: 760, height: 260, left: 44, right: 16, top: 28, bottom: 34, floor: 0.8, dot: 3.5 } as const;
+export const timeline = { width: 760, height: 260, left: 44, right: 16, top: 40, bottom: 34, floor: 0.8, dot: 3.5 } as const;
 /** Chips settle in when the system changes. */
 export const chips = { settle: 0.22, stagger: 0.03 } as const;
 

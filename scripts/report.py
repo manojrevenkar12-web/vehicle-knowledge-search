@@ -30,7 +30,12 @@ def examples(s) -> list[dict]:
                 continue
             res = {n: run_one(s, S[n], x, t[x["id"]], 0) for n in SYSTEMS}
             gold_n = len(S["graph"].listings.search(t[x["id"]]["filters"]))
-            if not res["llm_only"]["exact"] and res["graph_agent"]["exact"] and gold_n:
+            if (
+                not res["llm_only"]["exact"]
+                and res["graph_agent"]["exact"]
+                and gold_n
+                and res["llm_only"]["results"] != gold_n
+            ):
                 out.append(
                     {
                         "id": x["id"],
