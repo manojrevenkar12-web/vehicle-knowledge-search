@@ -1,0 +1,163 @@
+{
+ "makes": [
+  {
+   "id": "kia",
+   "name": "Kia"
+  }
+ ],
+ "models": [
+  {
+   "id": "kia/ev2",
+   "make": "Kia",
+   "name": "EV2",
+   "segment": "small",
+   "body": "suv",
+   "launched": 2026,
+   "aliases": [],
+   "base_price": 19000
+  }
+ ],
+ "generations": [
+  {
+   "id": "kia/ev2/ev2",
+   "model_id": "kia/ev2",
+   "name": "EV2",
+   "year_from": 2026,
+   "year_to": 2026
+  }
+ ],
+ "variants": [
+  {
+   "id": "kia/ev2/ev2/elektro-80-kw",
+   "generation_id": "kia/ev2/ev2",
+   "name": "Elektro 80 kW",
+   "fuel": "electric",
+   "power_kw": 80,
+   "gearbox": "automatic",
+   "drive": "fwd",
+   "seats": 5,
+   "consumption": null,
+   "special": false
+  },
+  {
+   "id": "kia/ev2/ev2/elektro-70-kw",
+   "generation_id": "kia/ev2/ev2",
+   "name": "Elektro 70 kW",
+   "fuel": "electric",
+   "power_kw": 70,
+   "gearbox": "automatic",
+   "drive": "fwd",
+   "seats": 5,
+   "consumption": null,
+   "special": false
+  }
+ ],
+ "concepts": {
+  "sparsam": {
+   "words": [
+    "sparsam",
+    "sparsamer",
+    "sparsames",
+    "economical",
+    "fuel-efficient"
+   ],
+   "filters": {
+    "consumption_to": 5.5
+   }
+  },
+  "familie": {
+   "words": [
+    "familientauglich",
+    "familienauto",
+    "family car",
+    "für die familie"
+   ],
+   "filters": {
+    "seats_from": 5,
+    "body": [
+     "kombi",
+     "suv"
+    ]
+   }
+  },
+  "sportlich": {
+   "words": [
+    "sportlich",
+    "sportlicher",
+    "sporty"
+   ],
+   "filters": {
+    "power_from_kw": 140
+   }
+  },
+  "anhaenger": {
+   "words": [
+    "mit anhängerkupplung",
+    "with a tow bar",
+    "mit ahk"
+   ],
+   "filters": {
+    "equipment": [
+     "tow_bar"
+    ]
+   }
+  },
+  "allrad": {
+   "words": [
+    "allrad",
+    "mit allrad",
+    "all-wheel drive",
+    "4x4"
+   ],
+   "filters": {
+    "drive": "awd"
+   }
+  },
+  "automatik": {
+   "words": [
+    "automatik",
+    "mit automatik",
+    "automatic"
+   ],
+   "filters": {
+    "gearbox": "automatic"
+   }
+  },
+  "wenig_km": {
+   "words": [
+    "wenig gelaufen",
+    "low mileage",
+    "wenig kilometer"
+   ],
+   "filters": {
+    "mileage_to": 50000
+   }
+  },
+  "elektro": {
+   "words": [
+    "elektroauto",
+    "e-auto",
+    "electric car"
+   ],
+   "filters": {
+    "fuel": [
+     "electric"
+    ]
+   }
+  }
+ },
+ "bodies": {
+  "suv": [
+   "SUV",
+   "SUV"
+  ],
+  "kombi": [
+   "Kombi",
+   "estate"
+  ],
+  "kleinwagen": [
+   "Kleinwagen",
+   "small car"
+  ]
+ }
+}

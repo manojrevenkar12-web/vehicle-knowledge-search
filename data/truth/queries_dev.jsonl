@@ -1,0 +1,320 @@
+{"id": "DEV-0001", "kind": "explicit", "filters": {"make": "Seat", "model": "Leon", "fuel": ["diesel"], "price_to": 38000}}
+{"id": "DEV-0002", "kind": "explicit", "filters": {"make": "Audi", "model": "Q5", "year_from": 2020, "price_to": 56000}}
+{"id": "DEV-0003", "kind": "generation", "filters": {"make": "Tesla", "model": "Model 3", "year_from": 2019, "year_to": 2023, "power_from_kw": 361, "power_to_kw": 371, "fuel": ["electric"], "price_to": 26000}}
+{"id": "DEV-0004", "kind": "generation", "filters": {"make": "BMW", "model": "3er", "year_from": 2012, "year_to": 2018, "power_from_kw": 185, "power_to_kw": 195, "fuel": ["petrol"], "price_to": 18000}}
+{"id": "DEV-0005", "kind": "concept", "filters": {"gearbox": "automatic", "power_from_kw": 140, "drive": "awd", "body": ["kombi"], "price_to": 26000}}
+{"id": "DEV-0006", "kind": "new_model", "filters": {"make": "Renault", "model": "5 E-Tech", "price_to": 30000}}
+{"id": "DEV-0007", "kind": "generation", "filters": {"make": "Audi", "model": "A4", "year_from": 2008, "year_to": 2015, "power_from_kw": 255, "power_to_kw": 265, "fuel": ["petrol"], "price_to": 54000}}
+{"id": "DEV-0008", "kind": "explicit", "filters": {"make": "Tesla", "model": "Model Y", "price_to": 54000}}
+{"id": "DEV-0009", "kind": "alias", "filters": {"make": "Toyota", "model": "RAV4", "fuel": ["hybrid"]}}
+{"id": "DEV-0010", "kind": "explicit", "filters": {"make": "Cupra", "model": "Born", "year_from": 2016, "price_to": 52000}}
+{"id": "DEV-0011", "kind": "explicit", "filters": {"make": "Hyundai", "model": "Tucson", "fuel": ["petrol"], "year_from": 2016, "price_to": 52000}}
+{"id": "DEV-0012", "kind": "generation", "filters": {"make": "BMW", "model": "3er", "year_from": 2005, "year_to": 2011, "power_from_kw": 135, "power_to_kw": 145, "fuel": ["diesel"], "price_to": 70000}}
+{"id": "DEV-0013", "kind": "alias", "filters": {"make": "Renault", "model": "5 E-Tech", "price_to": 54000}}
+{"id": "DEV-0014", "kind": "explicit", "filters": {"make": "Skoda", "model": "Octavia", "year_from": 2019, "price_to": 56000}}
+{"id": "DEV-0015", "kind": "explicit", "filters": {"make": "Opel", "model": "Corsa", "price_to": 60000}}
+{"id": "DEV-0016", "kind": "explicit", "filters": {"make": "Dacia", "model": "Duster", "year_from": 2023}}
+{"id": "DEV-0017", "kind": "explicit", "filters": {"make": "Renault", "model": "Clio", "year_from": 2015, "price_to": 22000}}
+{"id": "DEV-0018", "kind": "explicit", "filters": {"make": "Mercedes-Benz", "model": "GLC", "fuel": ["diesel"], "year_from": 2021, "price_to": 56000}}
+{"id": "DEV-0019", "kind": "explicit", "filters": {"make": "Tesla", "model": "Model 3", "price_to": 10000}}
+{"id": "DEV-0020", "kind": "generation", "filters": {"make": "Tesla", "model": "Model 3", "year_from": 2019, "year_to": 2023, "price_to": 42000}}
+{"id": "DEV-0021", "kind": "explicit", "filters": {"make": "Kia", "model": "Sportage", "year_from": 2019, "price_to": 18000}}
+{"id": "DEV-0022", "kind": "generation", "filters": {"make": "Mercedes-Benz", "model": "C-Klasse", "year_from": 2014, "year_to": 2021, "power_from_kw": 345, "power_to_kw": 355, "fuel": ["petrol"]}}
+{"id": "DEV-0023", "kind": "generation", "filters": {"make": "Audi", "model": "Q5", "year_from": 2024, "year_to": 2026, "power_from_kw": 255, "power_to_kw": 265, "fuel": ["petrol"], "price_to": 70000}}
+{"id": "DEV-0024", "kind": "explicit", "filters": {"make": "Ford", "model": "Kuga", "year_from": 2020}}
+{"id": "DEV-0025", "kind": "concept", "filters": {"gearbox": "automatic", "price_to": 38000}}
+{"id": "DEV-0026", "kind": "alias", "filters": {"make": "Audi", "model": "A4", "fuel": ["diesel"], "year_from": 2022, "price_to": 54000}}
+{"id": "DEV-0027", "kind": "generation", "filters": {"make": "Ford", "model": "Focus", "year_from": 2018, "year_to": 2025, "power_from_kw": 201, "power_to_kw": 211, "fuel": ["petrol"], "price_to": 12000}}
+{"id": "DEV-0028", "kind": "generation", "filters": {"make": "Hyundai", "model": "Tucson", "year_from": 2015, "year_to": 2020, "price_to": 28000}}
+{"id": "DEV-0029", "kind": "generation", "filters": {"make": "Ford", "model": "Kuga", "year_from": 2020, "year_to": 2026}}
+{"id": "DEV-0030", "kind": "generation", "filters": {"make": "Tesla", "model": "Model 3", "year_from": 2024, "year_to": 2026, "power_from_kw": 388, "power_to_kw": 398, "fuel": ["electric"], "price_to": 48000}}
+{"id": "DEV-0031", "kind": "generation", "filters": {"make": "BMW", "model": "3er", "year_from": 2012, "year_to": 2018, "power_from_kw": 135, "power_to_kw": 145, "fuel": ["diesel"], "price_to": 56000}}
+{"id": "DEV-0032", "kind": "explicit", "filters": {"make": "Ford", "model": "Focus", "fuel": ["diesel"], "year_from": 2022, "price_to": 30000}}
+{"id": "DEV-0033", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Passat", "year_from": 2023, "year_to": 2026, "power_from_kw": 155, "power_to_kw": 165, "fuel": ["hybrid"], "price_to": 64000}}
+{"id": "DEV-0034", "kind": "explicit", "filters": {"make": "Renault", "model": "Clio", "fuel": ["hybrid"], "price_to": 38000}}
+{"id": "DEV-0035", "kind": "new_model", "filters": {"make": "Renault", "model": "5 E-Tech", "price_to": 44000}}
+{"id": "DEV-0036", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Golf", "year_from": 2019, "year_to": 2026, "power_from_kw": 142, "power_to_kw": 152, "fuel": ["diesel"], "price_to": 28000}}
+{"id": "DEV-0037", "kind": "generation", "filters": {"make": "Audi", "model": "Q5", "year_from": 2017, "year_to": 2024, "power_from_kw": 255, "power_to_kw": 265, "fuel": ["petrol"], "price_to": 34000}}
+{"id": "DEV-0038", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Golf", "year_from": 2019, "year_to": 2026, "power_from_kw": 142, "power_to_kw": 152, "fuel": ["diesel"], "price_to": 44000}}
+{"id": "DEV-0039", "kind": "new_model", "filters": {"make": "Renault", "model": "5 E-Tech", "price_to": 30000}}
+{"id": "DEV-0040", "kind": "explicit", "filters": {"make": "Opel", "model": "Corsa", "fuel": ["electric"], "year_from": 2014}}
+{"id": "DEV-0041", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Passat", "year_from": 2010, "year_to": 2014, "power_from_kw": 155, "power_to_kw": 165, "fuel": ["hybrid"], "price_to": 30000}}
+{"id": "DEV-0042", "kind": "concept", "filters": {"consumption_to": 5.5, "price_to": 12000}}
+{"id": "DEV-0043", "kind": "explicit", "filters": {"make": "Dacia", "model": "Duster", "fuel": ["diesel"], "year_from": 2017, "price_to": 60000}}
+{"id": "DEV-0044", "kind": "explicit", "filters": {"make": "Audi", "model": "A4", "fuel": ["petrol"], "year_from": 2014, "price_to": 40000}}
+{"id": "DEV-0045", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Golf", "year_from": 2019, "year_to": 2026, "power_from_kw": 230, "power_to_kw": 240, "fuel": ["petrol"], "price_to": 14000}}
+{"id": "DEV-0046", "kind": "concept", "filters": {"power_from_kw": 140, "price_to": 32000}}
+{"id": "DEV-0047", "kind": "generation", "filters": {"make": "Tesla", "model": "Model 3", "year_from": 2024, "year_to": 2026, "power_from_kw": 361, "power_to_kw": 371, "fuel": ["electric"]}}
+{"id": "DEV-0048", "kind": "new_model", "filters": {"make": "Kia", "model": "EV3", "price_to": 36000}}
+{"id": "DEV-0049", "kind": "explicit", "filters": {"make": "Cupra", "model": "Born", "price_to": 14000}}
+{"id": "DEV-0050", "kind": "new_model", "filters": {"make": "Skoda", "model": "Elroq"}}
+{"id": "DEV-0051", "kind": "explicit", "filters": {"make": "Volkswagen", "model": "Passat", "fuel": ["petrol"], "year_from": 2020, "price_to": 56000}}
+{"id": "DEV-0052", "kind": "explicit", "filters": {"make": "Fiat", "model": "500", "fuel": ["electric"], "year_from": 2016, "price_to": 50000}}
+{"id": "DEV-0053", "kind": "explicit", "filters": {"make": "Ford", "model": "Kuga", "fuel": ["hybrid"], "year_from": 2023}}
+{"id": "DEV-0054", "kind": "concept", "filters": {"consumption_to": 5.5, "equipment": ["tow_bar"], "price_to": 22000}}
+{"id": "DEV-0055", "kind": "concept", "filters": {"seats_from": 5, "body": ["kombi", "suv"], "price_to": 20000}}
+{"id": "DEV-0056", "kind": "explicit", "filters": {"make": "Hyundai", "model": "Ioniq 5", "year_from": 2017, "price_to": 22000}}
+{"id": "DEV-0057", "kind": "explicit", "filters": {"make": "Mercedes-Benz", "model": "C-Klasse", "fuel": ["petrol"], "price_to": 26000}}
+{"id": "DEV-0058", "kind": "concept", "filters": {"consumption_to": 5.5, "price_to": 42000}}
+{"id": "DEV-0059", "kind": "generation", "filters": {"make": "BMW", "model": "3er", "year_from": 2005, "year_to": 2011, "price_to": 10000}}
+{"id": "DEV-0060", "kind": "alias", "filters": {"make": "BMW", "model": "3er", "fuel": ["diesel"], "year_from": 2022, "price_to": 20000}}
+{"id": "DEV-0061", "kind": "concept", "filters": {"mileage_to": 50000, "power_from_kw": 140, "equipment": ["tow_bar"], "price_to": 10000}}
+{"id": "DEV-0062", "kind": "alias", "filters": {"make": "Fiat", "model": "500", "fuel": ["petrol"], "price_to": 32000}}
+{"id": "DEV-0063", "kind": "generation", "filters": {"make": "Audi", "model": "A4", "year_from": 2008, "year_to": 2015, "price_to": 40000}}
+{"id": "DEV-0064", "kind": "explicit", "filters": {"make": "Toyota", "model": "Corolla", "price_to": 18000}}
+{"id": "DEV-0065", "kind": "alias", "filters": {"make": "Toyota", "model": "RAV4", "fuel": ["hybrid"], "year_from": 2018, "price_to": 58000}}
+{"id": "DEV-0066", "kind": "alias", "filters": {"make": "Toyota", "model": "RAV4", "fuel": ["hybrid"], "price_to": 12000}}
+{"id": "DEV-0067", "kind": "generation", "filters": {"make": "Mercedes-Benz", "model": "C-Klasse", "year_from": 2021, "year_to": 2026, "power_from_kw": 345, "power_to_kw": 355, "fuel": ["petrol"]}}
+{"id": "DEV-0068", "kind": "concept", "filters": {"equipment": ["tow_bar"], "price_to": 40000}}
+{"id": "DEV-0069", "kind": "explicit", "filters": {"make": "Skoda", "model": "Kodiaq", "fuel": ["petrol"], "year_from": 2020, "price_to": 54000}}
+{"id": "DEV-0070", "kind": "new_model", "filters": {"make": "Kia", "model": "EV3", "price_to": 48000}}
+{"id": "DEV-0071", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Passat", "year_from": 2010, "year_to": 2014, "price_to": 16000}}
+{"id": "DEV-0072", "kind": "new_model", "filters": {"make": "Kia", "model": "EV3", "price_to": 38000}}
+{"id": "DEV-0073", "kind": "generation", "filters": {"make": "BMW", "model": "3er", "year_from": 2005, "year_to": 2011, "power_from_kw": 135, "power_to_kw": 145, "fuel": ["diesel"], "price_to": 12000}}
+{"id": "DEV-0074", "kind": "generation", "filters": {"make": "Dacia", "model": "Duster", "year_from": 2024, "year_to": 2026, "price_to": 64000}}
+{"id": "DEV-0075", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Tiguan", "year_from": 2007, "year_to": 2015, "power_from_kw": 135, "power_to_kw": 145, "fuel": ["petrol"], "price_to": 12000}}
+{"id": "DEV-0076", "kind": "concept", "filters": {"power_from_kw": 140, "drive": "awd", "body": ["suv"], "price_to": 38000}}
+{"id": "DEV-0077", "kind": "explicit", "filters": {"make": "Seat", "model": "Leon", "fuel": ["diesel"], "year_from": 2019}}
+{"id": "DEV-0078", "kind": "generation", "filters": {"make": "Renault", "model": "Clio", "year_from": 2012, "year_to": 2019, "price_to": 16000}}
+{"id": "DEV-0079", "kind": "generation", "filters": {"make": "Ford", "model": "Focus", "year_from": 2018, "year_to": 2025, "power_from_kw": 201, "power_to_kw": 211, "fuel": ["petrol"], "price_to": 58000}}
+{"id": "DEV-0080", "kind": "generation", "filters": {"make": "BMW", "model": "i4", "year_from": 2021, "year_to": 2026, "power_from_kw": 245, "power_to_kw": 255, "fuel": ["electric"], "price_to": 22000}}
+{"id": "DEV-0081", "kind": "alias", "filters": {"make": "BMW", "model": "3er", "fuel": ["diesel"], "price_to": 54000}}
+{"id": "DEV-0082", "kind": "alias", "filters": {"make": "Renault", "model": "5 E-Tech", "year_from": 2018}}
+{"id": "DEV-0083", "kind": "new_model", "filters": {"make": "Kia", "model": "EV3", "price_to": 40000}}
+{"id": "DEV-0084", "kind": "generation", "filters": {"make": "Tesla", "model": "Model 3", "year_from": 2019, "year_to": 2023, "price_to": 70000}}
+{"id": "DEV-0085", "kind": "new_model", "filters": {"make": "Kia", "model": "EV3", "price_to": 30000}}
+{"id": "DEV-0086", "kind": "alias", "filters": {"make": "Fiat", "model": "500", "year_from": 2016, "price_to": 46000}}
+{"id": "DEV-0087", "kind": "new_model", "filters": {"make": "Kia", "model": "EV3"}}
+{"id": "DEV-0088", "kind": "concept", "filters": {"drive": "awd", "body": ["kombi"], "price_to": 32000}}
+{"id": "DEV-0089", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Golf", "year_from": 2019, "year_to": 2026, "power_from_kw": 175, "power_to_kw": 185, "fuel": ["petrol"]}}
+{"id": "DEV-0090", "kind": "explicit", "filters": {"make": "Volkswagen", "model": "Passat", "fuel": ["petrol"], "year_from": 2020, "price_to": 50000}}
+{"id": "DEV-0091", "kind": "explicit", "filters": {"make": "Skoda", "model": "Octavia", "year_from": 2023, "price_to": 42000}}
+{"id": "DEV-0092", "kind": "explicit", "filters": {"make": "Kia", "model": "EV6", "year_from": 2017, "price_to": 32000}}
+{"id": "DEV-0093", "kind": "explicit", "filters": {"make": "Volkswagen", "model": "Passat", "fuel": ["diesel"], "price_to": 30000}}
+{"id": "DEV-0094", "kind": "generation", "filters": {"make": "Dacia", "model": "Duster", "year_from": 2018, "year_to": 2023, "price_to": 60000}}
+{"id": "DEV-0095", "kind": "new_model", "filters": {"make": "Kia", "model": "EV3", "price_to": 46000}}
+{"id": "DEV-0096", "kind": "concept", "filters": {"equipment": ["tow_bar"], "gearbox": "automatic", "price_to": 42000}}
+{"id": "DEV-0097", "kind": "concept", "filters": {"equipment": ["tow_bar"], "drive": "awd", "mileage_to": 50000, "price_to": 16000}}
+{"id": "DEV-0098", "kind": "new_model", "filters": {"make": "Skoda", "model": "Elroq", "price_to": 30000}}
+{"id": "DEV-0099", "kind": "new_model", "filters": {"make": "Renault", "model": "5 E-Tech", "price_to": 22000}}
+{"id": "DEV-0100", "kind": "explicit", "filters": {"make": "Opel", "model": "Corsa", "fuel": ["petrol"], "year_from": 2014, "price_to": 22000}}
+{"id": "DEV-0101", "kind": "concept", "filters": {"power_from_kw": 140, "price_to": 20000}}
+{"id": "DEV-0102", "kind": "explicit", "filters": {"make": "Volkswagen", "model": "Tiguan", "fuel": ["hybrid"], "year_from": 2021, "price_to": 20000}}
+{"id": "DEV-0103", "kind": "new_model", "filters": {"make": "Renault", "model": "5 E-Tech", "price_to": 50000}}
+{"id": "DEV-0104", "kind": "generation", "filters": {"make": "Skoda", "model": "Kodiaq", "year_from": 2024, "year_to": 2026}}
+{"id": "DEV-0105", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Golf", "year_from": 2019, "year_to": 2026, "power_from_kw": 230, "power_to_kw": 240, "fuel": ["petrol"], "price_to": 30000}}
+{"id": "DEV-0106", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Tiguan", "year_from": 2007, "year_to": 2015, "power_from_kw": 135, "power_to_kw": 145, "fuel": ["petrol"], "price_to": 38000}}
+{"id": "DEV-0107", "kind": "concept", "filters": {"mileage_to": 50000, "power_from_kw": 140, "price_to": 14000}}
+{"id": "DEV-0108", "kind": "generation", "filters": {"make": "Tesla", "model": "Model 3", "year_from": 2024, "year_to": 2026, "power_from_kw": 388, "power_to_kw": 398, "fuel": ["electric"]}}
+{"id": "DEV-0109", "kind": "explicit", "filters": {"make": "Volkswagen", "model": "Tiguan", "price_to": 36000}}
+{"id": "DEV-0110", "kind": "generation", "filters": {"make": "Tesla", "model": "Model 3", "year_from": 2019, "year_to": 2023, "power_from_kw": 361, "power_to_kw": 371, "fuel": ["electric"], "price_to": 36000}}
+{"id": "DEV-0111", "kind": "explicit", "filters": {"make": "Seat", "model": "Leon", "fuel": ["diesel"], "year_from": 2016, "price_to": 52000}}
+{"id": "DEV-0112", "kind": "concept", "filters": {"consumption_to": 5.5, "mileage_to": 50000, "body": ["kombi"], "price_to": 10000}}
+{"id": "DEV-0113", "kind": "new_model", "filters": {"make": "Skoda", "model": "Elroq", "price_to": 36000}}
+{"id": "DEV-0114", "kind": "concept", "filters": {"consumption_to": 5.5, "gearbox": "automatic", "seats_from": 5, "body": ["kombi", "suv"], "price_to": 38000}}
+{"id": "DEV-0115", "kind": "concept", "filters": {"mileage_to": 50000, "seats_from": 5, "body": ["kombi", "suv"], "drive": "awd", "price_to": 32000}}
+{"id": "DEV-0116", "kind": "concept", "filters": {"equipment": ["tow_bar"], "price_to": 38000}}
+{"id": "DEV-0117", "kind": "explicit", "filters": {"make": "Opel", "model": "Corsa", "year_from": 2016, "price_to": 46000}}
+{"id": "DEV-0118", "kind": "explicit", "filters": {"make": "Toyota", "model": "RAV4", "fuel": ["petrol"], "year_from": 2016, "price_to": 34000}}
+{"id": "DEV-0119", "kind": "alias", "filters": {"make": "Tesla", "model": "Model 3"}}
+{"id": "DEV-0120", "kind": "explicit", "filters": {"make": "Seat", "model": "Leon"}}
+{"id": "DEV-0121", "kind": "generation", "filters": {"make": "BMW", "model": "X3", "year_from": 2017, "year_to": 2024, "power_from_kw": 135, "power_to_kw": 145, "fuel": ["diesel"], "price_to": 68000}}
+{"id": "DEV-0122", "kind": "explicit", "filters": {"make": "Tesla", "model": "Model Y", "year_from": 2021, "price_to": 40000}}
+{"id": "DEV-0123", "kind": "explicit", "filters": {"make": "Volkswagen", "model": "Passat", "fuel": ["hybrid"], "year_from": 2023, "price_to": 28000}}
+{"id": "DEV-0124", "kind": "new_model", "filters": {"make": "Kia", "model": "EV3"}}
+{"id": "DEV-0125", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Passat", "year_from": 2023, "year_to": 2026, "power_from_kw": 155, "power_to_kw": 165, "fuel": ["hybrid"], "price_to": 12000}}
+{"id": "DEV-0126", "kind": "explicit", "filters": {"make": "Tesla", "model": "Model 3", "year_from": 2018, "price_to": 8000}}
+{"id": "DEV-0127", "kind": "explicit", "filters": {"make": "Ford", "model": "Kuga", "fuel": ["diesel"], "year_from": 2014, "price_to": 8000}}
+{"id": "DEV-0128", "kind": "concept", "filters": {"seats_from": 5, "body": ["kombi", "suv"], "power_from_kw": 140, "price_to": 40000}}
+{"id": "DEV-0129", "kind": "generation", "filters": {"make": "Skoda", "model": "Octavia", "year_from": 2020, "year_to": 2026, "power_from_kw": 175, "power_to_kw": 185, "fuel": ["petrol"], "price_to": 20000}}
+{"id": "DEV-0130", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Golf", "year_from": 2008, "year_to": 2012, "power_from_kw": 175, "power_to_kw": 185, "fuel": ["petrol"], "price_to": 62000}}
+{"id": "DEV-0131", "kind": "new_model", "filters": {"make": "Skoda", "model": "Elroq", "price_to": 38000}}
+{"id": "DEV-0132", "kind": "concept", "filters": {"seats_from": 5, "body": ["kombi", "suv"], "fuel": ["electric"], "price_to": 50000}}
+{"id": "DEV-0133", "kind": "explicit", "filters": {"make": "Audi", "model": "A4", "fuel": ["petrol"]}}
+{"id": "DEV-0134", "kind": "generation", "filters": {"make": "Audi", "model": "Q5", "year_from": 2017, "year_to": 2024, "power_from_kw": 255, "power_to_kw": 265, "fuel": ["petrol"]}}
+{"id": "DEV-0135", "kind": "generation", "filters": {"make": "BMW", "model": "X3", "year_from": 2010, "year_to": 2017, "power_from_kw": 135, "power_to_kw": 145, "fuel": ["diesel"], "price_to": 38000}}
+{"id": "DEV-0136", "kind": "new_model", "filters": {"make": "Skoda", "model": "Elroq"}}
+{"id": "DEV-0137", "kind": "concept", "filters": {"power_from_kw": 140, "price_to": 26000}}
+{"id": "DEV-0138", "kind": "concept", "filters": {"mileage_to": 50000, "price_to": 16000}}
+{"id": "DEV-0139", "kind": "generation", "filters": {"make": "Hyundai", "model": "Tucson", "year_from": 2015, "year_to": 2020, "price_to": 12000}}
+{"id": "DEV-0140", "kind": "alias", "filters": {"make": "Hyundai", "model": "Ioniq 5"}}
+{"id": "DEV-0141", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Golf", "year_from": 2012, "year_to": 2019, "power_from_kw": 175, "power_to_kw": 185, "fuel": ["petrol"]}}
+{"id": "DEV-0142", "kind": "generation", "filters": {"make": "Audi", "model": "Q5", "year_from": 2017, "year_to": 2024, "power_from_kw": 255, "power_to_kw": 265, "fuel": ["petrol"], "price_to": 48000}}
+{"id": "DEV-0143", "kind": "concept", "filters": {"equipment": ["tow_bar"], "consumption_to": 5.5, "fuel": ["electric"], "price_to": 48000}}
+{"id": "DEV-0144", "kind": "new_model", "filters": {"make": "Skoda", "model": "Elroq", "price_to": 30000}}
+{"id": "DEV-0145", "kind": "generation", "filters": {"make": "Tesla", "model": "Model 3", "year_from": 2024, "year_to": 2026, "power_from_kw": 388, "power_to_kw": 398, "fuel": ["electric"], "price_to": 54000}}
+{"id": "DEV-0146", "kind": "alias", "filters": {"make": "Volkswagen", "model": "Passat", "price_to": 22000}}
+{"id": "DEV-0147", "kind": "concept", "filters": {"gearbox": "automatic", "drive": "awd", "body": ["kleinwagen"], "price_to": 20000}}
+{"id": "DEV-0148", "kind": "generation", "filters": {"make": "Mercedes-Benz", "model": "C-Klasse", "year_from": 2014, "year_to": 2021, "power_from_kw": 345, "power_to_kw": 355, "fuel": ["petrol"], "price_to": 10000}}
+{"id": "DEV-0149", "kind": "concept", "filters": {"drive": "awd", "mileage_to": 50000, "price_to": 36000}}
+{"id": "DEV-0150", "kind": "explicit", "filters": {"make": "Kia", "model": "Sportage", "fuel": ["petrol"], "year_from": 2018, "price_to": 16000}}
+{"id": "DEV-0151", "kind": "explicit", "filters": {"make": "Seat", "model": "Leon", "fuel": ["diesel"], "year_from": 2022, "price_to": 46000}}
+{"id": "DEV-0152", "kind": "explicit", "filters": {"make": "Toyota", "model": "RAV4", "fuel": ["petrol"], "year_from": 2015, "price_to": 42000}}
+{"id": "DEV-0153", "kind": "explicit", "filters": {"make": "Cupra", "model": "Born", "year_from": 2015, "price_to": 20000}}
+{"id": "DEV-0154", "kind": "alias", "filters": {"make": "BMW", "model": "3er", "fuel": ["hybrid"], "price_to": 50000}}
+{"id": "DEV-0155", "kind": "generation", "filters": {"make": "Fiat", "model": "500", "year_from": 2020, "year_to": 2026, "price_to": 10000}}
+{"id": "DEV-0156", "kind": "concept", "filters": {"seats_from": 5, "body": ["kombi", "suv"], "price_to": 16000}}
+{"id": "DEV-0157", "kind": "explicit", "filters": {"make": "Fiat", "model": "500", "year_from": 2022, "price_to": 20000}}
+{"id": "DEV-0158", "kind": "generation", "filters": {"make": "Skoda", "model": "Octavia", "year_from": 2013, "year_to": 2019, "power_from_kw": 175, "power_to_kw": 185, "fuel": ["petrol"]}}
+{"id": "DEV-0159", "kind": "explicit", "filters": {"make": "Hyundai", "model": "Tucson", "fuel": ["hybrid"], "price_to": 60000}}
+{"id": "DEV-0160", "kind": "explicit", "filters": {"make": "Mercedes-Benz", "model": "C-Klasse", "fuel": ["petrol"], "year_from": 2021, "price_to": 60000}}
+{"id": "DEV-0161", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Passat", "year_from": 2010, "year_to": 2014, "power_from_kw": 155, "power_to_kw": 165, "fuel": ["hybrid"], "price_to": 46000}}
+{"id": "DEV-0162", "kind": "concept", "filters": {"equipment": ["tow_bar"], "gearbox": "automatic", "fuel": ["electric"], "price_to": 26000}}
+{"id": "DEV-0163", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Golf", "year_from": 2019, "year_to": 2026, "power_from_kw": 175, "power_to_kw": 185, "fuel": ["petrol"], "price_to": 46000}}
+{"id": "DEV-0164", "kind": "alias", "filters": {"make": "Renault", "model": "5 E-Tech", "year_from": 2022, "price_to": 38000}}
+{"id": "DEV-0165", "kind": "new_model", "filters": {"make": "Skoda", "model": "Elroq"}}
+{"id": "DEV-0166", "kind": "generation", "filters": {"make": "BMW", "model": "X3", "year_from": 2024, "year_to": 2026, "price_to": 12000}}
+{"id": "DEV-0167", "kind": "explicit", "filters": {"make": "Skoda", "model": "Elroq", "year_from": 2014, "price_to": 10000}}
+{"id": "DEV-0168", "kind": "generation", "filters": {"make": "BMW", "model": "3er", "year_from": 2019, "year_to": 2026, "power_from_kw": 185, "power_to_kw": 195, "fuel": ["petrol"], "price_to": 66000}}
+{"id": "DEV-0169", "kind": "concept", "filters": {"fuel": ["electric"], "equipment": ["tow_bar"], "body": ["suv"], "price_to": 28000}}
+{"id": "DEV-0170", "kind": "alias", "filters": {"make": "Mercedes-Benz", "model": "C-Klasse", "fuel": ["hybrid"], "price_to": 22000}}
+{"id": "DEV-0171", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Golf", "year_from": 2019, "year_to": 2026, "power_from_kw": 230, "power_to_kw": 240, "fuel": ["petrol"], "price_to": 14000}}
+{"id": "DEV-0172", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Passat", "year_from": 2010, "year_to": 2014, "power_from_kw": 155, "power_to_kw": 165, "fuel": ["hybrid"], "price_to": 64000}}
+{"id": "DEV-0173", "kind": "new_model", "filters": {"make": "Kia", "model": "EV3", "price_to": 24000}}
+{"id": "DEV-0174", "kind": "generation", "filters": {"make": "Tesla", "model": "Model 3", "year_from": 2024, "year_to": 2026, "power_from_kw": 361, "power_to_kw": 371, "fuel": ["electric"], "price_to": 44000}}
+{"id": "DEV-0175", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Golf", "year_from": 2008, "year_to": 2012, "power_from_kw": 175, "power_to_kw": 185, "fuel": ["petrol"]}}
+{"id": "DEV-0176", "kind": "explicit", "filters": {"make": "Tesla", "model": "Model 3", "year_from": 2021, "price_to": 16000}}
+{"id": "DEV-0177", "kind": "concept", "filters": {"mileage_to": 50000, "body": ["suv"], "price_to": 50000}}
+{"id": "DEV-0178", "kind": "explicit", "filters": {"make": "Hyundai", "model": "Tucson", "fuel": ["petrol"]}}
+{"id": "DEV-0179", "kind": "explicit", "filters": {"make": "Seat", "model": "Leon", "fuel": ["hybrid"], "year_from": 2016, "price_to": 58000}}
+{"id": "DEV-0180", "kind": "generation", "filters": {"make": "Hyundai", "model": "Ioniq 5", "year_from": 2021, "year_to": 2026, "price_to": 44000}}
+{"id": "DEV-0181", "kind": "explicit", "filters": {"make": "BMW", "model": "i4", "price_to": 54000}}
+{"id": "DEV-0182", "kind": "concept", "filters": {"power_from_kw": 140, "mileage_to": 50000, "gearbox": "automatic", "body": ["kombi"], "price_to": 34000}}
+{"id": "DEV-0183", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Tiguan", "year_from": 2007, "year_to": 2015, "power_from_kw": 135, "power_to_kw": 145, "fuel": ["petrol"], "price_to": 48000}}
+{"id": "DEV-0184", "kind": "explicit", "filters": {"make": "Volkswagen", "model": "Golf", "year_from": 2017}}
+{"id": "DEV-0185", "kind": "generation", "filters": {"make": "Skoda", "model": "Octavia", "year_from": 2020, "year_to": 2026, "power_from_kw": 175, "power_to_kw": 185, "fuel": ["petrol"], "price_to": 30000}}
+{"id": "DEV-0186", "kind": "concept", "filters": {"gearbox": "automatic", "body": ["suv"], "price_to": 32000}}
+{"id": "DEV-0187", "kind": "concept", "filters": {"power_from_kw": 140, "body": ["suv"], "price_to": 36000}}
+{"id": "DEV-0188", "kind": "generation", "filters": {"make": "BMW", "model": "3er", "year_from": 2019, "year_to": 2026, "power_from_kw": 135, "power_to_kw": 145, "fuel": ["diesel"]}}
+{"id": "DEV-0189", "kind": "alias", "filters": {"make": "Fiat", "model": "500", "year_from": 2020, "price_to": 58000}}
+{"id": "DEV-0190", "kind": "concept", "filters": {"equipment": ["tow_bar"], "drive": "awd", "price_to": 26000}}
+{"id": "DEV-0191", "kind": "alias", "filters": {"make": "BMW", "model": "3er"}}
+{"id": "DEV-0192", "kind": "generation", "filters": {"make": "Mercedes-Benz", "model": "C-Klasse", "year_from": 2021, "year_to": 2026, "power_from_kw": 345, "power_to_kw": 355, "fuel": ["petrol"], "price_to": 10000}}
+{"id": "DEV-0193", "kind": "explicit", "filters": {"make": "Dacia", "model": "Duster", "fuel": ["petrol"]}}
+{"id": "DEV-0194", "kind": "explicit", "filters": {"make": "Seat", "model": "Leon", "fuel": ["hybrid"], "year_from": 2018}}
+{"id": "DEV-0195", "kind": "new_model", "filters": {"make": "Kia", "model": "EV3", "price_to": 38000}}
+{"id": "DEV-0196", "kind": "concept", "filters": {"equipment": ["tow_bar"], "mileage_to": 50000, "price_to": 38000}}
+{"id": "DEV-0197", "kind": "alias", "filters": {"make": "Toyota", "model": "RAV4", "fuel": ["hybrid"]}}
+{"id": "DEV-0198", "kind": "generation", "filters": {"make": "BMW", "model": "3er", "year_from": 2019, "year_to": 2026, "power_from_kw": 270, "power_to_kw": 280, "fuel": ["petrol"], "price_to": 18000}}
+{"id": "DEV-0199", "kind": "explicit", "filters": {"make": "Kia", "model": "Sportage", "price_to": 22000}}
+{"id": "DEV-0200", "kind": "generation", "filters": {"make": "BMW", "model": "X3", "year_from": 2010, "year_to": 2017, "power_from_kw": 135, "power_to_kw": 145, "fuel": ["diesel"], "price_to": 60000}}
+{"id": "DEV-0201", "kind": "explicit", "filters": {"make": "Renault", "model": "Clio", "fuel": ["hybrid"], "price_to": 40000}}
+{"id": "DEV-0202", "kind": "explicit", "filters": {"make": "BMW", "model": "X3", "fuel": ["petrol"], "price_to": 36000}}
+{"id": "DEV-0203", "kind": "generation", "filters": {"make": "BMW", "model": "3er", "year_from": 2012, "year_to": 2018, "power_from_kw": 270, "power_to_kw": 280, "fuel": ["petrol"], "price_to": 56000}}
+{"id": "DEV-0204", "kind": "concept", "filters": {"gearbox": "automatic", "body": ["kombi"], "price_to": 16000}}
+{"id": "DEV-0205", "kind": "concept", "filters": {"power_from_kw": 140, "gearbox": "automatic", "fuel": ["electric"], "price_to": 14000}}
+{"id": "DEV-0206", "kind": "concept", "filters": {"mileage_to": 50000, "body": ["suv"], "price_to": 50000}}
+{"id": "DEV-0207", "kind": "concept", "filters": {"equipment": ["tow_bar"], "mileage_to": 50000, "body": ["kleinwagen"], "price_to": 20000}}
+{"id": "DEV-0208", "kind": "explicit", "filters": {"make": "Kia", "model": "Sportage", "fuel": ["petrol"], "year_from": 2021, "price_to": 18000}}
+{"id": "DEV-0209", "kind": "generation", "filters": {"make": "Skoda", "model": "Octavia", "year_from": 2020, "year_to": 2026, "power_from_kw": 175, "power_to_kw": 185, "fuel": ["petrol"]}}
+{"id": "DEV-0210", "kind": "new_model", "filters": {"make": "Skoda", "model": "Elroq", "price_to": 50000}}
+{"id": "DEV-0211", "kind": "explicit", "filters": {"make": "Toyota", "model": "Corolla", "price_to": 30000}}
+{"id": "DEV-0212", "kind": "alias", "filters": {"make": "Fiat", "model": "500", "fuel": ["electric"], "price_to": 42000}}
+{"id": "DEV-0213", "kind": "explicit", "filters": {"make": "Kia", "model": "Sportage", "fuel": ["diesel"], "year_from": 2017, "price_to": 46000}}
+{"id": "DEV-0214", "kind": "generation", "filters": {"make": "Skoda", "model": "Octavia", "year_from": 2013, "year_to": 2019, "price_to": 16000}}
+{"id": "DEV-0215", "kind": "concept", "filters": {"equipment": ["tow_bar"], "consumption_to": 5.5, "seats_from": 5, "body": ["kombi", "suv"], "price_to": 38000}}
+{"id": "DEV-0216", "kind": "explicit", "filters": {"make": "Mercedes-Benz", "model": "GLC", "fuel": ["hybrid"], "year_from": 2019}}
+{"id": "DEV-0217", "kind": "concept", "filters": {"equipment": ["tow_bar"], "body": ["kleinwagen"], "price_to": 46000}}
+{"id": "DEV-0218", "kind": "generation", "filters": {"make": "BMW", "model": "X3", "year_from": 2017, "year_to": 2024, "power_from_kw": 135, "power_to_kw": 145, "fuel": ["diesel"], "price_to": 34000}}
+{"id": "DEV-0219", "kind": "new_model", "filters": {"make": "Kia", "model": "EV3", "price_to": 30000}}
+{"id": "DEV-0220", "kind": "concept", "filters": {"power_from_kw": 140, "price_to": 12000}}
+{"id": "DEV-0221", "kind": "explicit", "filters": {"make": "Volkswagen", "model": "Tiguan", "price_to": 52000}}
+{"id": "DEV-0222", "kind": "explicit", "filters": {"make": "Seat", "model": "Leon", "fuel": ["petrol"], "price_to": 22000}}
+{"id": "DEV-0223", "kind": "new_model", "filters": {"make": "Renault", "model": "5 E-Tech", "price_to": 34000}}
+{"id": "DEV-0224", "kind": "concept", "filters": {"drive": "awd", "body": ["kleinwagen"], "price_to": 38000}}
+{"id": "DEV-0225", "kind": "generation", "filters": {"make": "Ford", "model": "Focus", "year_from": 2018, "year_to": 2025, "power_from_kw": 201, "power_to_kw": 211, "fuel": ["petrol"]}}
+{"id": "DEV-0226", "kind": "explicit", "filters": {"make": "Renault", "model": "Clio", "fuel": ["hybrid"], "year_from": 2022, "price_to": 48000}}
+{"id": "DEV-0227", "kind": "alias", "filters": {"make": "BMW", "model": "3er", "fuel": ["hybrid"], "price_to": 44000}}
+{"id": "DEV-0228", "kind": "alias", "filters": {"make": "Volkswagen", "model": "ID.4", "year_from": 2023, "price_to": 46000}}
+{"id": "DEV-0229", "kind": "explicit", "filters": {"make": "Kia", "model": "Sportage", "fuel": ["diesel"], "price_to": 34000}}
+{"id": "DEV-0230", "kind": "explicit", "filters": {"make": "Skoda", "model": "Kodiaq", "fuel": ["diesel"], "year_from": 2018, "price_to": 32000}}
+{"id": "DEV-0231", "kind": "explicit", "filters": {"make": "Ford", "model": "Focus", "fuel": ["diesel"], "year_from": 2017, "price_to": 56000}}
+{"id": "DEV-0232", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Passat", "year_from": 2014, "year_to": 2023, "power_from_kw": 155, "power_to_kw": 165, "fuel": ["hybrid"], "price_to": 58000}}
+{"id": "DEV-0233", "kind": "concept", "filters": {"power_from_kw": 140, "mileage_to": 50000, "body": ["kleinwagen"], "price_to": 42000}}
+{"id": "DEV-0234", "kind": "generation", "filters": {"make": "Tesla", "model": "Model 3", "year_from": 2024, "year_to": 2026, "price_to": 26000}}
+{"id": "DEV-0235", "kind": "generation", "filters": {"make": "BMW", "model": "3er", "year_from": 2005, "year_to": 2011, "power_from_kw": 185, "power_to_kw": 195, "fuel": ["petrol"]}}
+{"id": "DEV-0236", "kind": "new_model", "filters": {"make": "Skoda", "model": "Elroq", "price_to": 22000}}
+{"id": "DEV-0237", "kind": "explicit", "filters": {"make": "BMW", "model": "X3", "fuel": ["diesel"], "year_from": 2014, "price_to": 40000}}
+{"id": "DEV-0238", "kind": "explicit", "filters": {"make": "Tesla", "model": "Model 3", "price_to": 50000}}
+{"id": "DEV-0239", "kind": "generation", "filters": {"make": "Cupra", "model": "Born", "year_from": 2021, "year_to": 2026, "price_to": 24000}}
+{"id": "DEV-0240", "kind": "generation", "filters": {"make": "Skoda", "model": "Octavia", "year_from": 2020, "year_to": 2026, "power_from_kw": 175, "power_to_kw": 185, "fuel": ["petrol"], "price_to": 48000}}
+{"id": "DEV-0241", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Golf", "year_from": 2019, "year_to": 2026, "power_from_kw": 175, "power_to_kw": 185, "fuel": ["petrol"], "price_to": 22000}}
+{"id": "DEV-0242", "kind": "generation", "filters": {"make": "BMW", "model": "X3", "year_from": 2010, "year_to": 2017, "power_from_kw": 135, "power_to_kw": 145, "fuel": ["diesel"], "price_to": 42000}}
+{"id": "DEV-0243", "kind": "alias", "filters": {"make": "Volkswagen", "model": "Golf", "price_to": 20000}}
+{"id": "DEV-0244", "kind": "new_model", "filters": {"make": "Skoda", "model": "Elroq", "price_to": 26000}}
+{"id": "DEV-0245", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Tiguan", "year_from": 2007, "year_to": 2015, "power_from_kw": 135, "power_to_kw": 145, "fuel": ["petrol"], "price_to": 54000}}
+{"id": "DEV-0246", "kind": "explicit", "filters": {"make": "Mercedes-Benz", "model": "C-Klasse", "year_from": 2018, "price_to": 12000}}
+{"id": "DEV-0247", "kind": "generation", "filters": {"make": "BMW", "model": "X3", "year_from": 2010, "year_to": 2017, "power_from_kw": 135, "power_to_kw": 145, "fuel": ["diesel"], "price_to": 58000}}
+{"id": "DEV-0248", "kind": "alias", "filters": {"make": "Fiat", "model": "500", "fuel": ["electric"]}}
+{"id": "DEV-0249", "kind": "concept", "filters": {"mileage_to": 50000, "price_to": 24000}}
+{"id": "DEV-0250", "kind": "generation", "filters": {"make": "Audi", "model": "A4", "year_from": 2008, "year_to": 2015, "power_from_kw": 326, "power_to_kw": 336, "fuel": ["petrol"], "price_to": 30000}}
+{"id": "DEV-0251", "kind": "explicit", "filters": {"make": "BMW", "model": "3er", "fuel": ["hybrid"], "price_to": 16000}}
+{"id": "DEV-0252", "kind": "explicit", "filters": {"make": "Volkswagen", "model": "Golf", "fuel": ["diesel"], "year_from": 2019, "price_to": 18000}}
+{"id": "DEV-0253", "kind": "alias", "filters": {"make": "Mercedes-Benz", "model": "C-Klasse", "fuel": ["petrol"], "price_to": 22000}}
+{"id": "DEV-0254", "kind": "new_model", "filters": {"make": "Renault", "model": "5 E-Tech", "price_to": 34000}}
+{"id": "DEV-0255", "kind": "explicit", "filters": {"make": "Kia", "model": "EV6", "price_to": 60000}}
+{"id": "DEV-0256", "kind": "explicit", "filters": {"make": "Toyota", "model": "Corolla", "year_from": 2023, "price_to": 54000}}
+{"id": "DEV-0257", "kind": "alias", "filters": {"make": "Volkswagen", "model": "ID.4", "price_to": 44000}}
+{"id": "DEV-0258", "kind": "alias", "filters": {"make": "Hyundai", "model": "Ioniq 5", "year_from": 2014, "price_to": 24000}}
+{"id": "DEV-0259", "kind": "explicit", "filters": {"make": "Tesla", "model": "Model Y"}}
+{"id": "DEV-0260", "kind": "generation", "filters": {"make": "Mercedes-Benz", "model": "C-Klasse", "year_from": 2021, "year_to": 2026, "power_from_kw": 345, "power_to_kw": 355, "fuel": ["petrol"], "price_to": 42000}}
+{"id": "DEV-0261", "kind": "generation", "filters": {"make": "Opel", "model": "Corsa", "year_from": 2019, "year_to": 2026, "price_to": 10000}}
+{"id": "DEV-0262", "kind": "generation", "filters": {"make": "Volkswagen", "model": "ID.4", "year_from": 2021, "year_to": 2026, "power_from_kw": 215, "power_to_kw": 225, "fuel": ["electric"]}}
+{"id": "DEV-0263", "kind": "explicit", "filters": {"make": "Opel", "model": "Corsa", "price_to": 34000}}
+{"id": "DEV-0264", "kind": "explicit", "filters": {"make": "Mercedes-Benz", "model": "GLC", "year_from": 2021, "price_to": 56000}}
+{"id": "DEV-0265", "kind": "alias", "filters": {"make": "Fiat", "model": "500", "fuel": ["electric"], "price_to": 40000}}
+{"id": "DEV-0266", "kind": "concept", "filters": {"fuel": ["electric"], "drive": "awd", "consumption_to": 5.5, "body": ["kleinwagen"], "price_to": 22000}}
+{"id": "DEV-0267", "kind": "generation", "filters": {"make": "BMW", "model": "3er", "year_from": 2005, "year_to": 2011, "power_from_kw": 185, "power_to_kw": 195, "fuel": ["petrol"], "price_to": 48000}}
+{"id": "DEV-0268", "kind": "concept", "filters": {"equipment": ["tow_bar"], "seats_from": 5, "body": ["kombi", "suv"], "price_to": 18000}}
+{"id": "DEV-0269", "kind": "generation", "filters": {"make": "Volkswagen", "model": "ID.4", "year_from": 2021, "year_to": 2026, "power_from_kw": 215, "power_to_kw": 225, "fuel": ["electric"], "price_to": 68000}}
+{"id": "DEV-0270", "kind": "explicit", "filters": {"make": "Renault", "model": "Clio", "year_from": 2015, "price_to": 58000}}
+{"id": "DEV-0271", "kind": "alias", "filters": {"make": "Fiat", "model": "500"}}
+{"id": "DEV-0272", "kind": "new_model", "filters": {"make": "Kia", "model": "EV3", "price_to": 34000}}
+{"id": "DEV-0273", "kind": "concept", "filters": {"equipment": ["tow_bar"], "price_to": 40000}}
+{"id": "DEV-0274", "kind": "explicit", "filters": {"make": "Audi", "model": "Q5", "fuel": ["petrol"], "price_to": 18000}}
+{"id": "DEV-0275", "kind": "explicit", "filters": {"make": "BMW", "model": "X3", "fuel": ["hybrid"], "price_to": 12000}}
+{"id": "DEV-0276", "kind": "new_model", "filters": {"make": "Skoda", "model": "Elroq"}}
+{"id": "DEV-0277", "kind": "new_model", "filters": {"make": "Renault", "model": "5 E-Tech", "price_to": 20000}}
+{"id": "DEV-0278", "kind": "explicit", "filters": {"make": "Renault", "model": "5 E-Tech", "year_from": 2018, "price_to": 60000}}
+{"id": "DEV-0279", "kind": "new_model", "filters": {"make": "Renault", "model": "5 E-Tech", "price_to": 42000}}
+{"id": "DEV-0280", "kind": "new_model", "filters": {"make": "Kia", "model": "EV3", "price_to": 28000}}
+{"id": "DEV-0281", "kind": "explicit", "filters": {"make": "Volkswagen", "model": "Tiguan", "year_from": 2022, "price_to": 32000}}
+{"id": "DEV-0282", "kind": "generation", "filters": {"make": "Fiat", "model": "500", "year_from": 2007, "year_to": 2024}}
+{"id": "DEV-0283", "kind": "explicit", "filters": {"make": "Skoda", "model": "Octavia", "fuel": ["diesel"], "year_from": 2014, "price_to": 38000}}
+{"id": "DEV-0284", "kind": "explicit", "filters": {"make": "Kia", "model": "EV3", "price_to": 14000}}
+{"id": "DEV-0285", "kind": "generation", "filters": {"make": "BMW", "model": "X3", "year_from": 2017, "year_to": 2024, "price_to": 50000}}
+{"id": "DEV-0286", "kind": "generation", "filters": {"make": "BMW", "model": "X3", "year_from": 2017, "year_to": 2024, "power_from_kw": 135, "power_to_kw": 145, "fuel": ["diesel"]}}
+{"id": "DEV-0287", "kind": "concept", "filters": {"gearbox": "automatic", "seats_from": 5, "body": ["kombi", "suv"], "price_to": 32000}}
+{"id": "DEV-0288", "kind": "explicit", "filters": {"make": "Volkswagen", "model": "ID.4", "year_from": 2021, "price_to": 42000}}
+{"id": "DEV-0289", "kind": "concept", "filters": {"seats_from": 5, "body": ["kombi", "suv"], "equipment": ["tow_bar"], "price_to": 22000}}
+{"id": "DEV-0290", "kind": "concept", "filters": {"power_from_kw": 140, "consumption_to": 5.5, "body": ["kombi"], "price_to": 14000}}
+{"id": "DEV-0291", "kind": "concept", "filters": {"mileage_to": 50000, "gearbox": "automatic", "equipment": ["tow_bar"], "price_to": 44000}}
+{"id": "DEV-0292", "kind": "explicit", "filters": {"make": "Kia", "model": "EV3", "year_from": 2019, "price_to": 26000}}
+{"id": "DEV-0293", "kind": "explicit", "filters": {"make": "Cupra", "model": "Born", "year_from": 2019, "price_to": 52000}}
+{"id": "DEV-0294", "kind": "explicit", "filters": {"make": "Hyundai", "model": "Ioniq 5"}}
+{"id": "DEV-0295", "kind": "explicit", "filters": {"make": "Toyota", "model": "RAV4", "fuel": ["hybrid"], "year_from": 2016, "price_to": 22000}}
+{"id": "DEV-0296", "kind": "concept", "filters": {"power_from_kw": 140, "fuel": ["electric"], "drive": "awd", "body": ["kleinwagen"], "price_to": 22000}}
+{"id": "DEV-0297", "kind": "concept", "filters": {"mileage_to": 50000, "consumption_to": 5.5, "price_to": 48000}}
+{"id": "DEV-0298", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Passat", "year_from": 2014, "year_to": 2023, "power_from_kw": 155, "power_to_kw": 165, "fuel": ["hybrid"], "price_to": 64000}}
+{"id": "DEV-0299", "kind": "alias", "filters": {"make": "Volkswagen", "model": "ID.4", "year_from": 2017, "price_to": 10000}}
+{"id": "DEV-0300", "kind": "new_model", "filters": {"make": "Renault", "model": "5 E-Tech", "price_to": 34000}}
+{"id": "DEV-0301", "kind": "concept", "filters": {"drive": "awd", "fuel": ["electric"], "price_to": 36000}}
+{"id": "DEV-0302", "kind": "concept", "filters": {"seats_from": 5, "body": ["kombi", "suv"], "price_to": 14000}}
+{"id": "DEV-0303", "kind": "alias", "filters": {"make": "Tesla", "model": "Model Y", "price_to": 32000}}
+{"id": "DEV-0304", "kind": "explicit", "filters": {"make": "Renault", "model": "5 E-Tech", "year_from": 2020, "price_to": 18000}}
+{"id": "DEV-0305", "kind": "concept", "filters": {"consumption_to": 5.5, "seats_from": 5, "body": ["kombi", "suv"], "price_to": 48000}}
+{"id": "DEV-0306", "kind": "concept", "filters": {"fuel": ["electric"], "price_to": 30000}}
+{"id": "DEV-0307", "kind": "concept", "filters": {"mileage_to": 50000, "gearbox": "automatic", "body": ["kleinwagen"], "price_to": 36000}}
+{"id": "DEV-0308", "kind": "explicit", "filters": {"make": "Volkswagen", "model": "ID.4", "price_to": 18000}}
+{"id": "DEV-0309", "kind": "explicit", "filters": {"make": "Volkswagen", "model": "Passat"}}
+{"id": "DEV-0310", "kind": "concept", "filters": {"mileage_to": 50000, "equipment": ["tow_bar"], "fuel": ["electric"], "price_to": 44000}}
+{"id": "DEV-0311", "kind": "concept", "filters": {"fuel": ["electric"], "price_to": 24000}}
+{"id": "DEV-0312", "kind": "generation", "filters": {"make": "Kia", "model": "EV6", "year_from": 2021, "year_to": 2026, "price_to": 66000}}
+{"id": "DEV-0313", "kind": "concept", "filters": {"mileage_to": 50000, "consumption_to": 5.5, "fuel": ["electric"], "body": ["kleinwagen"], "price_to": 16000}}
+{"id": "DEV-0314", "kind": "generation", "filters": {"make": "Tesla", "model": "Model 3", "year_from": 2024, "year_to": 2026, "power_from_kw": 388, "power_to_kw": 398, "fuel": ["electric"], "price_to": 42000}}
+{"id": "DEV-0315", "kind": "explicit", "filters": {"make": "Toyota", "model": "RAV4", "fuel": ["petrol"], "price_to": 10000}}
+{"id": "DEV-0316", "kind": "explicit", "filters": {"make": "Skoda", "model": "Elroq", "year_from": 2016, "price_to": 8000}}
+{"id": "DEV-0317", "kind": "explicit", "filters": {"make": "Volkswagen", "model": "Passat", "price_to": 48000}}
+{"id": "DEV-0318", "kind": "generation", "filters": {"make": "BMW", "model": "3er", "year_from": 2019, "year_to": 2026, "power_from_kw": 270, "power_to_kw": 280, "fuel": ["petrol"], "price_to": 24000}}
+{"id": "DEV-0319", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Golf", "year_from": 2012, "year_to": 2019, "power_from_kw": 230, "power_to_kw": 240, "fuel": ["petrol"]}}
+{"id": "DEV-0320", "kind": "generation", "filters": {"make": "Volkswagen", "model": "Passat", "year_from": 2010, "year_to": 2014, "power_from_kw": 155, "power_to_kw": 165, "fuel": ["hybrid"]}}

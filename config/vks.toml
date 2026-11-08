@@ -1,0 +1,77 @@
+# Every rate, budget and threshold the project uses. Code reads these through vks.settings.
+
+[run]
+seed = 20261110
+repeats = 3
+
+[world]
+listings = 9000
+queries_dev = 320
+queries_heldout = 160
+english_share = 0.25
+today = "2026-11-09"
+llm_cutoff_year = 2024        # models launched after this are unknown to the model, but are in the knowledge graph
+
+[prior]                       # how the model's own knowledge differs from the knowledge graph
+generation_year_shift = 0.25  # share of generations whose year range the model remembers off by one or two years
+variant_power_error = 0.2     # share of variants whose power the model remembers wrong
+concept_drift = 0.35          # how far the model's own idea of "sparsam", "sportlich"... sits from the catalogue's
+
+[model]
+extraction_error = 0.03       # misreads a number or a word in the query
+unknown_model_guess = 0.6     # for a model it doesn't know: guesses a similar known one instead of leaving it out
+alias_miss = 0.1              # fails to link a colloquial name ("Dreier") without help
+ttft_ms = 520
+tokens_per_s = 90
+price_in = 0.0025
+price_out = 0.010
+
+[retrieval]
+vector_k = 4                  # documents the vector retriever passes to the model
+graph_hops = 2
+
+[agent]
+max_relax = 2                 # filters the agent may relax, one at a time, when a search returns nothing
+tool_ms = 60
+tool_spread = 0.3
+
+[tokens]
+system = 700
+per_doc = 220
+per_query = 40
+per_tool_result = 120
+output = 90
+
+[sessions]                    # what users do with a result page, for ground truth from behaviour
+page_size = 20
+click_relevant = 0.35
+click_irrelevant = 0.06
+contact_given_click = 0.25
+position_decay = 0.12         # attention falls with rank
+
+[production]
+weeks = 12
+queries_per_week = 400
+season_week = 6               # winter starts: all-wheel drive and SUVs
+launch_week = 7               # a new model goes on sale and people search for it
+kg_update_lag_weeks = 2       # the knowledge graph learns about it two weeks later
+llm_update_week = 10          # the model behind the search is upgraded
+llm_update_extra_guess = 0.25 # the new model version guesses unknown models more often
+labelled_per_week = 40        # queries a person labels each week
+
+[monitor]
+hallucination_alert = 0.04    # share of queries with a filter value the catalogue doesn't have
+zero_result_alert = 0.08
+unknown_entity_alert = 0.05
+psi_alert = 0.2               # population stability index of query topics against the first weeks
+baseline_weeks = 4
+
+[targets]
+p95_latency_ms = 2500
+cost_per_query_eur = 0.004
+
+[eval]
+bootstrap = 2000
+alpha = 0.05
+gate_max_drop = 0.02
+budget_slack = 0.05
