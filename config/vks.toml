@@ -61,7 +61,7 @@ labelled_per_week = 40        # queries a person labels each week
 
 [monitor]
 hallucination_alert = 0.04    # share of queries with a filter value the catalogue doesn't have
-zero_result_alert = 0.08
+zero_result_alert = 0.08     # a floor; the alert is three standard deviations above the first weeks
 unknown_entity_alert = 0.05
 psi_alert = 0.2               # population stability index of query topics against the first weeks
 baseline_weeks = 4
